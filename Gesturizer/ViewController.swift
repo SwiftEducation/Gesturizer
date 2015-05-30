@@ -46,5 +46,11 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func rotation(sender: UIRotationGestureRecognizer) {
+        if sender.state == .Ended {
+            showGestureName("Rotation")
+        }
+    }
+    
 }
 

@@ -32,6 +32,7 @@
                             <outletCollection property="gestureRecognizers" destination="tKH-Vw-yhT" appends="YES" id="Oo9-I5-C6Q"/>
                             <outletCollection property="gestureRecognizers" destination="xG6-a3-nEG" appends="YES" id="iTs-sU-njh"/>
                             <outletCollection property="gestureRecognizers" destination="lyo-Mx-pDr" appends="YES" id="cgD-Fi-4FF"/>
+                            <outletCollection property="gestureRecognizers" destination="e85-bD-8vi" appends="YES" id="rxa-mq-VLU"/>
                         </connections>
                     </view>
                     <connections>
@@ -56,6 +57,11 @@
                         <action selector="pinch:" destination="BYZ-38-t0r" id="IKl-Lq-fmz"/>
                     </connections>
                 </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="e85-bD-8vi">
+                    <connections>
+                        <action selector="rotation:" destination="BYZ-38-t0r" id="V0k-rE-dJQ"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
         </scene>
     </scenes>
