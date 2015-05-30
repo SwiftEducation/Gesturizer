@@ -26,5 +26,10 @@ class ViewController: UIViewController {
         gestureName.hidden = false
     }
     
+    @IBAction func doubleTap(sender: UITapGestureRecognizer) {
+        gestureName.text = "Double Tap"
+        gestureName.hidden = false
+    }
+    
 }
 

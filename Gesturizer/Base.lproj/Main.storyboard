@@ -30,6 +30,7 @@
                         </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="tKH-Vw-yhT" appends="YES" id="Oo9-I5-C6Q"/>
+                            <outletCollection property="gestureRecognizers" destination="xG6-a3-nEG" appends="YES" id="iTs-sU-njh"/>
                         </connections>
                     </view>
                     <connections>
@@ -37,6 +38,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="2" id="xG6-a3-nEG" userLabel="Double Tap">
+                    <connections>
+                        <action selector="doubleTap:" destination="BYZ-38-t0r" id="8sz-zD-Tgs"/>
+                    </connections>
+                </tapGestureRecognizer>
                 <tapGestureRecognizer id="tKH-Vw-yhT" userLabel="Single Tap">
                     <connections>
                         <action selector="singleTap:" destination="BYZ-38-t0r" id="cx9-Wu-bhy"/>
