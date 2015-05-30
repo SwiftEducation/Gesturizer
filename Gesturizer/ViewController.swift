@@ -23,6 +23,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent) {
+        if motion == .MotionShake {
+            showGestureName("Shake")
+        }
+    }
+    
     @IBAction func singleTap(sender: UITapGestureRecognizer) {
         showGestureName("Tap")
     }
