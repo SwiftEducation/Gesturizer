@@ -22,13 +22,16 @@ class ViewController: UIViewController {
     }
 
     @IBAction func singleTap(sender: UITapGestureRecognizer) {
-        gestureName.text = "Tap"
-        gestureName.hidden = false
+        showGestureName("Tap")
     }
     
     @IBAction func doubleTap(sender: UITapGestureRecognizer) {
-        gestureName.text = "Double Tap"
-        gestureName.hidden = false
+        showGestureName("Double Tap")
+    }
+    
+    func showGestureName(name: String) {
+        gestureName.text = name
+        UIView.animateWithDuration(1.0) { self.gestureName.alpha = 1.0 }
     }
     
 }
