@@ -52,5 +52,11 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBAction func swipe(sender: UISwipeGestureRecognizer) {
+        if sender.direction == .Right {
+            showGestureName("Right Swipe")
+        }
+    }
+    
 }
 
