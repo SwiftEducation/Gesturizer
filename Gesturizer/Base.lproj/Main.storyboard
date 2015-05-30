@@ -31,6 +31,7 @@
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="tKH-Vw-yhT" appends="YES" id="Oo9-I5-C6Q"/>
                             <outletCollection property="gestureRecognizers" destination="xG6-a3-nEG" appends="YES" id="iTs-sU-njh"/>
+                            <outletCollection property="gestureRecognizers" destination="lyo-Mx-pDr" appends="YES" id="cgD-Fi-4FF"/>
                         </connections>
                     </view>
                     <connections>
@@ -50,6 +51,11 @@
                         <action selector="singleTap:" destination="BYZ-38-t0r" id="cx9-Wu-bhy"/>
                     </connections>
                 </tapGestureRecognizer>
+                <pinchGestureRecognizer id="lyo-Mx-pDr">
+                    <connections>
+                        <action selector="pinch:" destination="BYZ-38-t0r" id="IKl-Lq-fmz"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
         </scene>
     </scenes>

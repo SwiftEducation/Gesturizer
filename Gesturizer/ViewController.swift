@@ -40,5 +40,11 @@ class ViewController: UIViewController {
         })
     }
     
+    @IBAction func pinch(sender: UIPinchGestureRecognizer) {
+        if sender.state == .Ended {
+            showGestureName("Pinch")
+        }
+    }
+    
 }
 
