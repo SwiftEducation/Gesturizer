@@ -10,10 +10,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var gestureName: UILabel!
+    @IBOutlet var singleTapRecognizer: UITapGestureRecognizer!
+    @IBOutlet var doubleTapRecognizer: UITapGestureRecognizer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        singleTapRecognizer.requireGestureRecognizerToFail(doubleTapRecognizer)
     }
 
     override func didReceiveMemoryWarning() {

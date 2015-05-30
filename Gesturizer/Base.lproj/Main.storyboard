@@ -34,7 +34,9 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="doubleTapRecognizer" destination="xG6-a3-nEG" id="ES7-OR-fSO"/>
                         <outlet property="gestureName" destination="gJT-Cf-HHO" id="a2X-nC-kk6"/>
+                        <outlet property="singleTapRecognizer" destination="tKH-Vw-yhT" id="sjG-EL-ySs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
