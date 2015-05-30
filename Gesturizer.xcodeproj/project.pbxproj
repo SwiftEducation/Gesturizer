@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92EAAAC1B19BEC800FFC8FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EAAAB1B19BEC800FFC8FA /* AppDelegate.swift */; };
+		F92EAAAE1B19BEC800FFC8FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EAAAD1B19BEC800FFC8FA /* ViewController.swift */; };
+		F92EAAB11B19BEC800FFC8FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F92EAAAF1B19BEC800FFC8FA /* Main.storyboard */; };
+		F92EAAB31B19BEC800FFC8FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F92EAAB21B19BEC800FFC8FA /* Images.xcassets */; };
+		F92EAAB61B19BEC800FFC8FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92EAAB41B19BEC800FFC8FA /* LaunchScreen.xib */; };
+		F92EAAC21B19BEC800FFC8FA /* GesturizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92EAAC11B19BEC800FFC8FA /* GesturizerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F92EAABC1B19BEC800FFC8FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F92EAA9E1B19BEC800FFC8FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92EAAA51B19BEC800FFC8FA;
+			remoteInfo = Gesturizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F92EAAA61B19BEC800FFC8FA /* Gesturizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesturizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92EAAAA1B19BEC800FFC8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92EAAAB1B19BEC800FFC8FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F92EAAAD1B19BEC800FFC8FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F92EAAB01B19BEC800FFC8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F92EAAB21B19BEC800FFC8FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F92EAAB51B19BEC800FFC8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F92EAABB1B19BEC800FFC8FA /* GesturizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92EAAC01B19BEC800FFC8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F92EAAC11B19BEC800FFC8FA /* GesturizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturizerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92EAAA31B19BEC800FFC8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92EAAB81B19BEC800FFC8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92EAA9D1B19BEC800FFC8FA = {
+			isa = PBXGroup;
+			children = (
+				F92EAAA81B19BEC800FFC8FA /* Gesturizer */,
+				F92EAABE1B19BEC800FFC8FA /* GesturizerTests */,
+				F92EAAA71B19BEC800FFC8FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92EAAA71B19BEC800FFC8FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92EAAA61B19BEC800FFC8FA /* Gesturizer.app */,
+				F92EAABB1B19BEC800FFC8FA /* GesturizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92EAAA81B19BEC800FFC8FA /* Gesturizer */ = {
+			isa = PBXGroup;
+			children = (
+				F92EAAAB1B19BEC800FFC8FA /* AppDelegate.swift */,
+				F92EAAAD1B19BEC800FFC8FA /* ViewController.swift */,
+				F92EAAAF1B19BEC800FFC8FA /* Main.storyboard */,
+				F92EAAB21B19BEC800FFC8FA /* Images.xcassets */,
+				F92EAAB41B19BEC800FFC8FA /* LaunchScreen.xib */,
+				F92EAAA91B19BEC800FFC8FA /* Supporting Files */,
+			);
+			path = Gesturizer;
+			sourceTree = "<group>";
+		};
+		F92EAAA91B19BEC800FFC8FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92EAAAA1B19BEC800FFC8FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F92EAABE1B19BEC800FFC8FA /* GesturizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F92EAAC11B19BEC800FFC8FA /* GesturizerTests.swift */,
+				F92EAABF1B19BEC800FFC8FA /* Supporting Files */,
+			);
+			path = GesturizerTests;
+			sourceTree = "<group>";
+		};
+		F92EAABF1B19BEC800FFC8FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92EAAC01B19BEC800FFC8FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92EAAA51B19BEC800FFC8FA /* Gesturizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92EAAC51B19BEC800FFC8FA /* Build configuration list for PBXNativeTarget "Gesturizer" */;
+			buildPhases = (
+				F92EAAA21B19BEC800FFC8FA /* Sources */,
+				F92EAAA31B19BEC800FFC8FA /* Frameworks */,
+				F92EAAA41B19BEC800FFC8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesturizer;
+			productName = Gesturizer;
+			productReference = F92EAAA61B19BEC800FFC8FA /* Gesturizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F92EAABA1B19BEC800FFC8FA /* GesturizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92EAAC81B19BEC800FFC8FA /* Build configuration list for PBXNativeTarget "GesturizerTests" */;
+			buildPhases = (
+				F92EAAB71B19BEC800FFC8FA /* Sources */,
+				F92EAAB81B19BEC800FFC8FA /* Frameworks */,
+				F92EAAB91B19BEC800FFC8FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F92EAABD1B19BEC800FFC8FA /* PBXTargetDependency */,
+			);
+			name = GesturizerTests;
+			productName = GesturizerTests;
+			productReference = F92EAABB1B19BEC800FFC8FA /* GesturizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92EAA9E1B19BEC800FFC8FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Your School";
+				TargetAttributes = {
+					F92EAAA51B19BEC800FFC8FA = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F92EAABA1B19BEC800FFC8FA = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F92EAAA51B19BEC800FFC8FA;
+					};
+				};
+			};
+			buildConfigurationList = F92EAAA11B19BEC800FFC8FA /* Build configuration list for PBXProject "Gesturizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F92EAA9D1B19BEC800FFC8FA;
+			productRefGroup = F92EAAA71B19BEC800FFC8FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92EAAA51B19BEC800FFC8FA /* Gesturizer */,
+				F92EAABA1B19BEC800FFC8FA /* GesturizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92EAAA41B19BEC800FFC8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92EAAB11B19BEC800FFC8FA /* Main.storyboard in Resources */,
+				F92EAAB61B19BEC800FFC8FA /* LaunchScreen.xib in Resources */,
+				F92EAAB31B19BEC800FFC8FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92EAAB91B19BEC800FFC8FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92EAAA21B19BEC800FFC8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92EAAAE1B19BEC800FFC8FA /* ViewController.swift in Sources */,
+				F92EAAAC1B19BEC800FFC8FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92EAAB71B19BEC800FFC8FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92EAAC21B19BEC800FFC8FA /* GesturizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F92EAABD1B19BEC800FFC8FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92EAAA51B19BEC800FFC8FA /* Gesturizer */;
+			targetProxy = F92EAABC1B19BEC800FFC8FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F92EAAAF1B19BEC800FFC8FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92EAAB01B19BEC800FFC8FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F92EAAB41B19BEC800FFC8FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92EAAB51B19BEC800FFC8FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92EAAC31B19BEC800FFC8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92EAAC41B19BEC800FFC8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92EAAC61B19BEC800FFC8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gesturizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F92EAAC71B19BEC800FFC8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gesturizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F92EAAC91B19BEC800FFC8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GesturizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesturizer.app/Gesturizer";
+			};
+			name = Debug;
+		};
+		F92EAACA1B19BEC800FFC8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GesturizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gesturizer.app/Gesturizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92EAAA11B19BEC800FFC8FA /* Build configuration list for PBXProject "Gesturizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92EAAC31B19BEC800FFC8FA /* Debug */,
+				F92EAAC41B19BEC800FFC8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92EAAC51B19BEC800FFC8FA /* Build configuration list for PBXNativeTarget "Gesturizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92EAAC61B19BEC800FFC8FA /* Debug */,
+				F92EAAC71B19BEC800FFC8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92EAAC81B19BEC800FFC8FA /* Build configuration list for PBXNativeTarget "GesturizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92EAAC91B19BEC800FFC8FA /* Debug */,
+				F92EAACA1B19BEC800FFC8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92EAA9E1B19BEC800FFC8FA /* Project object */;
+}
