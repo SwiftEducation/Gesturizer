@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.github.com/SwiftEducation/Gesturizer/master/Gesturizer/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
+<img align="right" src="https://github.com/SwiftEducation/Gesturizer/raw/master/Gesturizer/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
 # Gesturizer
 
@@ -8,7 +8,7 @@ Create an app that responds to gestures such as taps, pinches, rotations, and sw
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
