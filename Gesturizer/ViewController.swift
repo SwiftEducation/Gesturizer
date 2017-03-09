@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func singleTap(sender: UITapGestureRecognizer) {
+    @IBAction func singleTap(_ sender: UITapGestureRecognizer) {
         gestureName.text = "Tap"
-        gestureName.hidden = false
+        gestureName.isHidden = false
     }
     
 }
