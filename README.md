@@ -1,5 +1,9 @@
 <img align="right" src="https://github.com/SwiftEducation/Gesturizer/raw/master/Gesturizer/Images.xcassets/AppIcon.appiconset/Icon-Spotlight-40@2x.png" />
 
+## Deprecation Warning
+
+The Swift Education materials are out of date, and are no longer maintained.
+
 # Gesturizer
 
 ### Level 3, Nine Lessons
